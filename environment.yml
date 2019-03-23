@@ -1,0 +1,14 @@
+name: ctrl-friedland
+channels:
+- conda-forge
+dependencies:
+- python==3.6
+- matplotlib
+- scipy
+- numpy
+- sympy
+- jupyter
+- filterpy
+- pip:
+    - control
+    - slycot
